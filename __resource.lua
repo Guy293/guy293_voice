@@ -1,17 +1,16 @@
+----------------------------------------------------------------
+-- Copyright © 2019 by Guy Shefer
+-- Made By: Guy293
+-- GitHub: https://github.com/Guy293
+-- Fivem Forum: https://forum.fivem.net/u/guy293/
+----------------------------------------------------------------
+
 resource_manifest_version '44febabe-d386-4d18-afbe-5e627f4af937'
 
-description 'ESX Voice Controller'
+description 'Voice Controller'
 
 version '1.1.0'
 
 client_scripts {
-	'@es_extended/locale.lua',
-	'locales/br.lua',
-	'locales/en.lua',
-	'locales/fi.lua',
-  'locales/fr.lua',
-	'locales/pl.lua',
-	'locales/sv.lua',
-	'config.lua',
-	'client/main.lua'
+	'client.lua'
 }

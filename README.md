@@ -1,32 +1,28 @@
-# esx_voice
-FXServer ESX Voice
+# Guy293_Voice
 
 
 #### Description
-This is a proximity voice controller script. The default control for this is `Left Shift + H` (QWERTY).
+This is a proximity voice controller script. The default control for this is `Left Shift + Y` (QWERTY) to change the mode.
+To view the talking range hold `Y`.
+This script has diffrent modes in vehicles, police have speakers in the vehicle.
 
 #### Download
 
-**1) Using [fvm](https://github.com/qlaffont/fvm-installer)**
-```
-fvm install --save --folder=esx esx-org/esx_voice
-```
 
-**2) Manually**
-- Download https://github.com/ESX-Org/esx_voice/releases/latest
+**1) Manually**
+- Download https://github.com/Guy293/guy293_voice/releases
 - Put it in resource/[esx] directory
 
-**3) Using Git**
+**2) Using Git**
 
 ```
 cd resouces
-git clone https://github.com/ESX-Org/esx_voice
+git clone https://github.com/Guy293/guy293_voice
 ```
 
 #### Installation
-
-1) Add `start esx_voice` to your server.cfg
+1) Add `start guy293_voice` to your server.cfg
 
 
 #### Credits
-Original Script by [aabbfive](https://github.com/aabbfive/voicecontroller)
+Original Script by [ESX-Org](https://github.com/ESX-Org/esx_voice)
