@@ -40,11 +40,11 @@ function drawLevel(r, g, b, a)
 	
 	
 	if IsPedInAnyPoliceVehicle(GetPlayerPed(-1)) and GetPedInVehicleSeat(GetVehiclePedIsIn(GetPlayerPed(-1)), -1) == GetPlayerPed(-1) then
-		AddTextComponentSubstringPlayerName('~y~Police mode - Voice: ~s~%s', voicepolice.level)
+		AddTextComponentSubstringPlayerName('~y~Police mode - Voice: ~s~' .. voicepolice.level)
 	elseif IsPedInAnyVehicle(GetPlayerPed(-1), false) then
-		AddTextComponentSubstringPlayerName('~y~Car mode - Voice: ~s~%s', voicecar.level)
+		AddTextComponentSubstringPlayerName('~y~Car mode - Voice: ~s~' .. voicecar.level)
 	else
-		AddTextComponentSubstringPlayerName('~y~Voice: ~s~%s', voice.level)
+		AddTextComponentSubstringPlayerName('~y~Voice: ~s~' .. voice.level)
 	end
 	EndTextCommandDisplayText(0.2, 0.867)
 end
